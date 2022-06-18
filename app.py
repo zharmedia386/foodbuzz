@@ -12,3 +12,6 @@ def dashboard():
 
 if __name__ == "__main__":
     app.run(port=5000)
+
+    # for heroku
+    app.run(debug=True)
