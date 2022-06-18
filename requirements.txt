@@ -2,3 +2,10 @@ flask
 pymongo
 dnspython
 gunicorn
+Flask-Cors==3.0.10
+Jinja2==3.0.1
+json5==0.9.5
+requests==2.25.1
+simplejson==3.17.2
+urllib3==1.26.4
+Werkzeug==2.0.1
