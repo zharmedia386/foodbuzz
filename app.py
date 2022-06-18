@@ -11,7 +11,7 @@ def dashboard():
     return render_template('index.html', numbers_users=numbers_users, numbers_orders=numbers_orders, numbers_items=numbers_items, status_users=status_users, total_profit=total_profit, item_ordered=item_ordered, users=users_list, image_users=image_users)
 
 if __name__ == "__main__":
-    app.run(port=5000)
+    # app.run(port=5000)
 
     # for heroku
     app.run(debug=True)
