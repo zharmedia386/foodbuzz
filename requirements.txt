@@ -1,8 +1,6 @@
-flask
-pymongo
-dnspython
-gunicorn
+Flask==2.0.1
 Flask-Cors==3.0.10
+gunicorn==20.1.0
 Jinja2==3.0.1
 json5==0.9.5
 requests==2.25.1
