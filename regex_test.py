@@ -19,10 +19,16 @@
 #     print(address)
 # print(address)
 
-string = 'Ukuran: L\nJumlah: 3'
+# string = 'Ukuran: L\nJumlah: 3'
 
-ukuran = string[string.index('Ukuran: ') + len('Ukuran: '):string.index('\nJumlah: ')]
-jumlah = string[string.index('Jumlah: ') + len('Jumlah: ')]
+# ukuran = string[string.index('Ukuran: ') + len('Ukuran: '):string.index('\nJumlah: ')]
+# jumlah = string[string.index('Jumlah: ') + len('Jumlah: ')]
 
-print(jumlah)
-print(ukuran)
+# print(jumlah)
+# print(ukuran)
+
+
+string = 'Jumlah: 30'
+jumlah = string[-2:]
+
+print(int(jumlah))
