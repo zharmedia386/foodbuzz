@@ -19,8 +19,6 @@ app = Flask(__name__)
 
 # Create the routes
 @app.route("/", methods=["get", "post"])
-
-# Create the functions
 def reply():
     # Get the message from the request
     text = request.form.get("message")
