@@ -678,4 +678,4 @@ def formatrupiah(uang):
         return formatrupiah(q) + '.' + p
 
 if __name__ == "__main__":
-    app.run(port=5050)
+    app.run(port=5000)
