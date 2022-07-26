@@ -4,7 +4,7 @@ from datetime import datetime
 from bson.objectid import ObjectId
 import time
 
-cluster = MongoClient("mongodb+srv://zhar:zhar@cluster0.e99t7.mongodb.net/?retryWrites=true&w=majority", tls=True, tlsAllowInvalidCertificates=True)
+cluster = MongoClient("mongodb+srv://zhar:zhar@cluster0.e99t7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", tls=True, tlsAllowInvalidCertificates=True)
 
 # Connect to the database
 db = cluster["foodbuzz"]
@@ -678,4 +678,4 @@ def formatrupiah(uang):
         return formatrupiah(q) + '.' + p
 
 if __name__ == "__main__":
-    app.run(port=5000)
+    app.run(port=5050)
