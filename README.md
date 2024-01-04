@@ -19,24 +19,29 @@ For UMKM Practitioners:
 For UMKM Customers:
 - Simplifies the online ordering process through WhatsApp.
 - Eliminates the need to wait a long time for seller responses during order placement and product inquiries.
-- 
+
 ## Development Cycle
 
 <img src="https://github.com/zharmedia386/foodbuzz/blob/main/image-readme/produksi.png" />
 
 - Initial Meeting
+  
 The development of the FoodBuzz.id WhatsApp bot is driven by the needs and urgency of UMKM practitioners in running their businesses. An initial meeting is crucial to ensure that the chatbot's flow aligns with these needs and urgency, addressing the specific challenges faced by UMKM practitioners to optimize sales revenue.
 
 - Product Discovery
+  
 After gathering information about the needs and challenges faced by UMKM practitioners, the next step is to determine the chatbot's products and the corresponding process flow. At this stage, UMKM practitioners can propose changes to the initially determined product discovery based on the chatbot's prototype.
 
 - Prototype Creation
+
 Once the chatbot's products and process flow are defined, the next step is to create a prototype detailing each process flow. The details include crafting responses for each message, ensuring they guide users seamlessly through the various processes, including the option for users to revert to previous steps.
 
 - Chatbot Design
+  
 Before implementation, it's essential to design the chatbot using Figma, enabling online access for stakeholders. The design should illustrate the entire process and message responses, allowing UMKM practitioners to try the chatbot in the form of sketches and animations of the predetermined flow. This stage is also beneficial for developers during the implementation process.
 
 - Chatbot Development
+  
 The final step involves creating the WhatsApp bot based on the designed chatbot and the previously determined prototype. The chatbot is then integrated with the MongoDB Atlas server to store customer data and sales information. Subsequently, this data is visualized on an admin dashboard accessible to UMKM practitioners for business analysis.
   
 ## License
