@@ -1,53 +1,57 @@
 
-# FOODBUZZ.ID: WHATSAPP BOT UMKM SEKTOR KULINER INDONESIA
+# FOODBUZZ.ID: F&B Micro, Small, and Medium Enterprises (MSMEs) WhatsApp Chatbot
 
-FoodBuzz.id merupakan WhatsApp bot yang dapat menggantikan posisi customer service dalam merespon chat pelanggan dan dapat dijalankan pada WhatsApp pelaku UMKM. Respon bot terhadap chat pelanggan sangat cepat, yakni hanya berlangsung 1-3 detik dan terdapat sistem on/off sehingga pelaku UMKM dapat dengan mudah menjalankan dan mematikan chatbot sesuai kebutuhan. Selain itu, WhatsApp bot ini dapat berjalan melalui perantara aplikasi Watomatic yang terintegrasi dengan server MongoDB Atlas untuk dapat menyimpan data pelanggan yang menghubungi WhatsApp penjual ataupun data penjualan online secara otomatis ke dalam database. Kemudian, data-data ini akan ditampilkan pada dashboard admin yang dapat dilihat oleh pelaku UMKM untuk menganalisis keuntungan dan kerugian dari perkembangan bisnisnya pada periode tertentu.
+FoodBuzz.id is a WhatsApp bot designed to replace the role of customer service in responding to customer chats, catering to Micro, Small, and Medium Enterprises (UMKM). The bot can be operated on the WhatsApp platform by UMKM practitioners. The bot responds to customer chats within 1-3 seconds and includes an on/off system, allowing UMKM practitioners to easily activate or deactivate the chatbot as needed. 
 
-## Tujuan
+Additionally, this WhatsApp bot can run through the Watomatic application, integrated with a MongoDB Atlas server to automatically store customer data contacting the seller via WhatsApp and online sales data into the database. Subsequently, this data is displayed on an admin dashboard, allowing UMKM practitioners to analyze the profit and loss of their business during specific periods.
 
-Adapun tujuan pembuatan naskah produk inovatif ini adalah :
-- Membantu UMKM khususnya sektor kuliner dalam menangani penjualan dan bisnis online serta pencatatan data pelanggan ataupun data penjualan. Dengan ini, UMKM dapat menarik pelanggan, memberikan pelayanan dan penjualan yang lebih praktis serta menghemat sumber daya dan waktu.
-- Mendukung transformasi digital pada perekonomian sesuai dengan landasan SDGs (Sustainable Development Goals), yakni “mendukung pertumbuhan ekonomi yang inklusif dan berkelanjutan, tenaga kerja penuh dan produktif dan pekerjaan yang layak bagi semua”.
-- Membuat sebuah rancangan sistem yang terintegrasi antara chatbot dengan sistem pelayanan dan penjualan UMKM, sehingga chatbot dapat berinteraksi dengan pelanggan untuk memberikan informasi terkait produk dan melakukan pemesanan online.
-
-## Manfaat
+## Related Stakeholder
 
 Adapun manfaat yang diperoleh dari pembuatan FoodBuzz.id ini adalah:
-Bagi pelaku UMKM
-- Tidak perlu menangani chat pelanggan di WhatsApp dan mempekerjakan seorang customer service untuk menjalankan bisnis online
-- Pembatalan penjualan oleh pelanggan menjadi lebih sedikit, karena pelanggan tidak akan telat direspons sehingga omzet penjualan tidak akan menurun
-- Data pelanggan yang menghubungi melalui WhatsApp dan data penjualan online tersimpan secara otomatis pada database
-- Dapat menganalisis hasil penjualan untuk periode tertentu, berupa keuntungan dan kerugian dengan adanya dashboard admin
-Bagi Pelanggan UMKM
-- Pemesanan online menjadi lebih mudah dan praktis dengan hanya melalui WhatsApp
-- Tidak perlu menunggu lama untuk mendapatkan respons dari penjual dalam melakukan pemesanan dan mendapatkan informasi tentang produk yang dijual
+The benefits derived from the development of FoodBuzz.id include:
 
-## Proses Produksi
+For UMKM Practitioners:
+- Eliminates the need to handle customer chats on WhatsApp and hire a customer service representative for online business.
+- Reduces order cancellations as customers receive quick responses, ensuring sales revenue remains stable.
+- Automatically stores customer data from WhatsApp contacts and online sales data in a database.
+- Allows analysis of sales results for specific periods, including profit and loss, through the admin dashboard.
+
+For UMKM Customers:
+- Simplifies the online ordering process through WhatsApp.
+- Eliminates the need to wait a long time for seller responses during order placement and product inquiries.
+- 
+## Development Cycle
 
 <img src="https://github.com/zharmedia386/foodbuzz/blob/main/image-readme/produksi.png" />
 
-- Meeting awal
-WhatsApp bot FoodBuzz.id ini sangat ditentukan oleh kebutuhan dan urgensi dari pelaku UMKM dalam menjalankan bisnisnya. Agar alur chatbot dapat sesuai dengan kebutuhan dan urgensi tersebut, tahapan meeting awal ini harus dilakukan. Oleh karena itu, WhatsApp bot yang diproduksi akan menjawab masalah yang dihadapi oleh pelaku UMKM dan dapat dengan optimal dijalankan untuk meningkatkan omzet penjualan.
+- Initial Meeting
+The development of the FoodBuzz.id WhatsApp bot is driven by the needs and urgency of UMKM practitioners in running their businesses. An initial meeting is crucial to ensure that the chatbot's flow aligns with these needs and urgency, addressing the specific challenges faced by UMKM practitioners to optimize sales revenue.
 
-- Penemuan Produk
-Setelah mendapatkan informasi terkait kebutuhan dan masalah dari pelaku UMKM, tahapan selanjutnya adalah menentukan produk chatbot dan alur prosesnya yang sesuai dengan kebutuhan dan masalah tersebut. Pada tahap ini, pelaku UMKM dapat memberikan pengajuan berupa perubahan dari penemuan produk yang telah ditentukan sebelum dibuatkan prototipe dari chatbot yang akan dibuat.
+- Product Discovery
+After gathering information about the needs and challenges faced by UMKM practitioners, the next step is to determine the chatbot's products and the corresponding process flow. At this stage, UMKM practitioners can propose changes to the initially determined product discovery based on the chatbot's prototype.
 
-- Pembuatan Prototipe
-Setelah produk chatbot dan alur prosesnya ditentukan, tahapan selanjutnya adalah membuat prototipe berupa detail dari setiap alur prosesnya. Detail dari setiap alur proses disini berarti pembuatan teks dari setiap respons pesan yang akan diberikan oleh chatbot. Selain itu, detail tersebut harus dapat mengarahkan dari satu proses ke proses lainnya sehingga semua proses dapat tersambung, termasuk ketika pelanggan ingin kembali kepada proses sebelumnya.
+- Prototype Creation
+Once the chatbot's products and process flow are defined, the next step is to create a prototype detailing each process flow. The details include crafting responses for each message, ensuring they guide users seamlessly through the various processes, including the option for users to revert to previous steps.
 
-- Desain Chatbot 
-Sebelum chatbot diimplementasikan, hal yang perlu dilakukan adalah membuat desain dari chatbot yang akan diimplementasikan dengan menggunakan Figma agar hasil desain dapat diakses oleh pelanggan secara online. Hasil desain harus dapat menggambarkan keseluruhan proses dan pesan respons sehingga pelaku UMKM dapat mencoba chatbot dalam bentuk sketsa dan animasi dari alur yang sudah ditentukan. Selain itu, tahapan ini juga sangat berguna bagi developer dalam proses implementasi chatbot.
+- Chatbot Design
+Before implementation, it's essential to design the chatbot using Figma, enabling online access for stakeholders. The design should illustrate the entire process and message responses, allowing UMKM practitioners to try the chatbot in the form of sketches and animations of the predetermined flow. This stage is also beneficial for developers during the implementation process.
 
-- Pengerjaan Chatbot
-Tahapan terakhir adalah membuat WhatsApp bot sesuai dengan desain chatbot yang sudah dibuat dan prototipe yang ditentukan sebelumnya. Setelah itu, chatbot diintegrasikan dengan server MongoDB Atlas untuk menyimpan data pelanggan yang mengontak WhatsApp penjual dan juga data penjualan. Kemudian, data-data tersebut divisualisasikan pada dashboard admin yang dapat dilihat oleh penjual atau dalam hal ini pelaku UMKM untuk kebutuhan analisis bisnisnya.
+- Chatbot Development
+The final step involves creating the WhatsApp bot based on the designed chatbot and the previously determined prototype. The chatbot is then integrated with the MongoDB Atlas server to store customer data and sales information. Subsequently, this data is visualized on an admin dashboard accessible to UMKM practitioners for business analysis.
   
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
+## Demonstration Video
+
+[![Demo Video](https://img.youtube.com/vi/yUGmpEjEkdk/0.jpg)](https://www.youtube.com/watch?v=yUGmpEjEkdk)
+
+Link Video: https://youtu.be/yUGmpEjEkdk
+
 ## Screenshots
 
-### Respons WhatsApp Bot
+### WhatsApp Bot Response
 <img src="https://github.com/zharmedia386/foodbuzz/blob/main/image-readme/ss.png" />
 
 ### Dashboard Admin
